@@ -3,12 +3,12 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const [username, setUsername] = React.useState(undefined);
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Welcome <code>{username}</code> to NDS.
         </p>
         <a
           className="App-link"
@@ -18,9 +18,13 @@ function App() {
         >
           Learn React
         </a>
-        <button> Meaw! Meaw! I'm a Cat </button>
-        <button> Woof! Woof! I'm a Dog </button>
-        <button> Muuuu!! Muuuu!! I'm a Cow </button>
+        <p>Username</p>
+        <input onChange={event => setUsername(event.target.value)} type="text" />
+        <p>Email</p>
+        <input type="email" />
+        <p>Password</p>
+        <input type="password" />
+        <button disabled={username === ''}>SignUp</button>
       </header>
     </div>
   );
