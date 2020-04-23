@@ -18,8 +18,9 @@ function App() {
         >
           Learn React
         </a>
-        <button>Meaw, I'm a Cat</button>
-        <button>Woof, I'm a Dog</button>
+        <button> Meaw! Meaw! I'm a Cat </button>
+        <button> Woof! Woof! I'm a Dog </button>
+        <button> Muuuu!! Muuuu!! I'm a Cow </button>
       </header>
     </div>
   );
