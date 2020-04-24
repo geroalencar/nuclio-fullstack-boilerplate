@@ -1,22 +1,21 @@
 .App {
+  max-width: 200px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.App-Display {
+  grid-column: 2/5;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.Fondo {
+  max-width: 200px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+  padding: 20px 0;
+  display: flex;
+  background-color: darkred;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
 }
