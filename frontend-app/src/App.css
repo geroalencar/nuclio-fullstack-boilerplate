@@ -9,13 +9,6 @@
   text-align: center;
 }
 
-.Fondo {
-  max-width: 200px;
-  justify-content: center;
-  padding: 20px 0;
+.Container {
   display: flex;
-  background-color: darkred;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 30px;
 }
