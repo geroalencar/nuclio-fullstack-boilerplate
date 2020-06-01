@@ -1,14 +1,31 @@
-.App {
-  max-width: 200px;
+.Buttons {
+  border-top: 1px lightgray solid;
   display: grid;
   grid-template-columns: auto auto auto auto;
 }
 
-.App-Display {
-  grid-column: 2/5;
-  text-align: center;
+.Display {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 200px;
+}
+
+.Display-content {
+  text-align: end;
+  font-size: 50px;
 }
 
 .Container {
   display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  max-width: 300px;
+  background-color: black;
+  color: white;
+}
+
+.Canvas {
+  display: flex;
+  justify-content: center;
 }
